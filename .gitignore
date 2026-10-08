@@ -74,3 +74,4 @@ coverage/
 *.sqlite3
 *.db
 
+docs/
