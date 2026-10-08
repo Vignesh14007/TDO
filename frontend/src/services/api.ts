@@ -11,7 +11,7 @@ import {
 } from '../types';
 
 const api = axios.create({
-  baseURL: '/api/v1',
+  baseURL: 'https://tdo-rt2t.onrender.com/api/v1',
   headers: {
     'Content-Type': 'application/json',
   },
