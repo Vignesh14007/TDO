@@ -9,12 +9,12 @@ class Settings(BaseSettings):
     API_V1_STR: str = "/api/v1"
     ENVIRONMENT: str = "development"
 
-    SECRET_KEY: str = "tdo-development-super-secret-key-change-in-production"
+    SECRET_KEY: str 
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 7  # 7 days
     ALGORITHM: str = "HS256"
 
     # PostgreSQL Database URL
-    DATABASE_URL: str = "postgresql+psycopg2://postgres:postgres@localhost:5432/tdo_db"
+    DATABASE_URL: str
 
     @field_validator("DATABASE_URL", mode="before")
     @classmethod
