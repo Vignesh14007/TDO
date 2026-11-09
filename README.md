@@ -134,7 +134,4 @@ With the backend running, interactive docs are available at:
 - Swagger UI: http://127.0.0.1:8000/docs
 - ReDoc: http://127.0.0.1:8000/redoc
 
-## Author
 
-**Vigneshwaran S** — B.Tech Information Technology, Kongu Engineering College
-[LinkedIn](https://linkedin.com/in/vigneswars/) · [GitHub](https://github.com/Vignesh14007)
